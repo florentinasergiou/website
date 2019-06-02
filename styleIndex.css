@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    font-style: normal;
+    color: tan;
+}
+
+h3 {
+    font-family: 'Merriweather'; 
+    font-size: 64px;
+    color: tan;
+    line-height: .75px;
+}
+
+p {
+    font-family: 'Merriweather'; font-size: 18px;
+    color: darkslateblue;
+}
+
+.topnav {
+    background-color: lightsteelblue;
+}
+
+.topnav a {
+    color: darkslateblue;
+    text-align: center;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 14px 16px;
+}
+
+.topnav a.hover {
+  color: white;
+}
+
+.topnav a.active {
+  color: lightcyan;
+}
+
+.container {
+    margin: 15px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0 5px;
+}
+
+@media (max-width: 800px) {
+    .boxes {
+    flex: 100%;
+    max-width: 50%;
+    padding: 5px 5px;
+  }
