@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<a href="/about">
 
 <head>
     <meta charset="utf-8">
@@ -21,7 +19,7 @@
   <a href="photography.html">Photography</a>
   <a href="digital.html">Digital</a>
   <a href="writing.html">Writing</a>
-  <a class="active" href="#About">About</a>
+  <a class="active" href="/About">About</a>
 </div>
 
 <h3 id="myHeader">About</h3>
