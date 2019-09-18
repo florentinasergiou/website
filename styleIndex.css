@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+}
+
+h1 {
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Merriweather'; 
+    font-size: 64px;
+    color: tan;
+    line-height: .75px;
+}
+
+p {
+    font-family: 'Merriweather'; 
+    font-size: 18px;
+    color: darkslateblue;
+}
+
+/*
+.topnav {
+    background-color: lightsteelblue;
+}
+
+.topnav a {
+    color: darkslateblue;
+    text-align: center;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 14px 16px;
+}
+
+.topnav a.hover {
+  color: white;
+}
+
+.topnav a.active {
+  color: lightcyan;
+}
+*/
+
+#BackgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 17;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+    margin: 15px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0 8px;
+}
+
+@media (max-width: 800px) {
+    .boxes {
+    flex: 100%;
+    max-width: 50%;
+    padding: 5px 5px;
+  }
