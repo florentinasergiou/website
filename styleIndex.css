@@ -7,7 +7,8 @@ h1 {
     font-size: 96px;
     font-weight: 400;
     font-style: normal;
-    color: tan;
+    color: white;
+    justify-content: center;
 }
 
 h3 {
@@ -18,10 +19,18 @@ h3 {
 }
 
 p {
-    font-family: 'Merriweather'; font-size: 18px;
+    font-family: 'Merriweather'; 
+    font-size: 18px;
     color: darkslateblue;
 }
 
+p {
+    font-family:'Merriweather';
+    font-size: 18px;
+    color: darkslateblue;
+ ]
+  
+/*   
 .topnav {
     background-color: lightsteelblue;
 }
@@ -42,6 +51,22 @@ p {
 
 .topnav a.active {
   color: lightcyan;
+} */
+
+#BackgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 17;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .container {
@@ -52,7 +77,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     padding: 0 4px;
     justify-content: center;
 }
@@ -62,7 +87,7 @@ p {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 @media (max-width: 800px) {
