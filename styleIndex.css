@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: darkslateblue;
 }
 
 h1 {
@@ -87,6 +87,7 @@ p {
 
 @media (max-width: 500px) {
     .boxes {
+    background-color: darkslateblue;
     flex: 100%;
     max-width: 50%;
     padding: 2px 160px;
