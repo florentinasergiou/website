@@ -85,9 +85,10 @@ p {
     padding: 0 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .boxes {
     flex: 100%;
     max-width: 50%;
-    padding: 5px 5px;
+    padding: 2px 160px;
+    max-height: inherit;
   }
