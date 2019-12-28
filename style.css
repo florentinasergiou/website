@@ -4,12 +4,15 @@ body {
 
 h1 {
     font-family: 'bebas-neue', sans-serif;
-    font-size: 72px;
+    font-size: 96px;
     font-weight: 400;
     font-style: normal;
-    color: tan;
-    display: inline-block;
-    flex-wrap: wrap;
+    color: white;
+    flex: 100%;
+    max-width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 9%;
 }
 
 h3 {
