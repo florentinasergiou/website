@@ -12,7 +12,7 @@ h1 {
     max-width: 100%;
     justify-content: space-around;
     text-align: center;
-    margin-right: 9%;
+    padding-right: 1.5%;
 }
 
 h3 {
@@ -65,7 +65,6 @@ p {
   bottom: 17;
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
 }
 
 .container {
@@ -77,8 +76,8 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     width: 90%;
-    padding: 0 2px;
     justify-content: center;
+    padding-right: 1.5%;
 }
 
 .boxes {
@@ -89,7 +88,7 @@ p {
     padding: 0 8px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) 
     .boxes {
     flex: 100%;
     max-width: 50%;
