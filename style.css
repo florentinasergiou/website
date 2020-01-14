@@ -13,6 +13,8 @@ h1 {
     justify-content: space-around;
     text-align: left;
     margin-right: 9%;
+    padding-top: -20px;
+    padding-bottom: -20px;
 }
 
 h3 {
