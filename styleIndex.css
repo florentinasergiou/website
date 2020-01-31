@@ -75,7 +75,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     justify-content: center;
     padding-right: 2%;
     padding-bottom: 2%
@@ -85,7 +85,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     justify-content: center;
     padding-right: 2%;
 }
