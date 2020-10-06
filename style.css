@@ -36,7 +36,7 @@ b {
   font-weight: bold;
 }
 
-a:link {
+a:link, a:visited {
   color: tan;
   text-decoration: none;
 }
