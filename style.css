@@ -16,6 +16,16 @@ h1 {
     padding-bottom: -20px;
 }
 
+h2 {
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    color: tan;
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
 h3 {
     font-family: 'Merriweather'; 
     font-size: 64px;
@@ -36,9 +46,16 @@ b {
   font-weight: bold;
 }
 
-a:link, a:visited {
+a:link {
+  color: darkslateblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
   color: tan;
-  text-decoration: none;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .topnav {
