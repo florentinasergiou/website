@@ -1,0 +1,278 @@
+body {
+  background-color: #203327;
+}
+
+
+/*
+@font-face {
+    font-family: 'french_chateauxregular';
+    src: url('frenchchateaux-webfont.woff2') format('woff2'),
+         url('frenchchateaux-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+h1 {
+    font-family: 'quiverleaf-cf', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: normal;
+    color: #F9EEE4;
+    flex: 100%;
+    max-width: 100%;
+    text-align: left;
+    margin-right: 9%;
+    margin-top: 2%;
+    margin-bottom: 0px;}
+
+h2 {
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    color: #F9EEE4;
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Merriweather'; 
+    font-size: 64px;
+    color: #F9EEE4;
+    line-height: .75px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: 'quiverleaf-cf', sans-serif; 
+    font-size: 24px;
+    color: #F9EEE4;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+b {
+  font-weight: bold;
+}
+
+a:link {
+  color: #D8A373;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*
+.topnav {
+    background-color: lightsteelblue;
+}
+*/
+
+.topnav a {
+    color: #203327;
+    text-align: center;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.topnav a.hover {
+  color: #D8A373;
+}
+
+
+/*Container for Blobs*/
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+
+/*Columns for Journey*/
+* {
+    box-sizing: border-box;
+}
+
+/* Journey Columns */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+}
+
+.left {
+    width: 22%;
+}
+
+.right {
+    width: 75%;
+    max-width: 68%;
+    display: flex;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Article Cards Columns */
+.rowArticle {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.columnArticle {
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Two Even Columns */
+.rowEven {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.columnEven {
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* Two Uneven Columns */
+.rowUneven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.columnUnevenOne {
+    width: 25%;
+    padding: 10px;
+}
+
+.columnUnevenTwo {
+    width: 75%;
+    padding: 10px;
+}
+
+
+/* Three Even Columns */
+.rowThree {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+.columnThree {
+    width: 33%;
+    padding: 10px;
+}
+
+
+/* Artificial Love Columns */
+.rowAL {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.columnAL {
+    width: 33.33%;
+    justify-content: center;
+    padding: 10px;
+    max-height: 500px;
+}
+
+ @media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  } 
+  
+.DigitaliFrames {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+#PhysPage {  
+  width: 100%;  
+  height: auto; 
+}
+  
+.WritingiFrames {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
