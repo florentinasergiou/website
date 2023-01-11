@@ -2,6 +2,22 @@ body {
   background-color: #203327;
 }
 
+@media only screen and (max-width: 1199px) {
+        #mainCont { display: none; }
+            .smallscreen { display: block; }
+        }
+@media only screen and (min-width: 1200px) {
+            .smallscreen { display: none; }
+        }
+
+@media only screen and (max-width: 1199px) {
+        #smallCont { display: none; }
+            .largescreen { display: block; }
+        }
+@media only screen and (min-width: 1200px) {
+            .largescreen { display: none; }
+        }
+
 
 /*
 @font-face {
@@ -226,12 +242,14 @@ a:hover {
     max-height: 500px;
 }
 
+/*
  @media (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   } 
   
+*/
 .DigitaliFrames {
     display: flex;
     flex-direction: column;
